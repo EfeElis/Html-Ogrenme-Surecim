@@ -133,10 +133,78 @@
 </body>
 </html>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<!-- HTML'de Liste Yapmak İçin Belli Başlı Etiket ve Parametreler Kullanırız. -->
 
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Anasayfa</title>
+</head>
+<body>
 
+<h3>Sırasız Liste</h3>  
+    <ul>
+		<li>Süt</li>
+        <li>Tavuk</li>   <!-- HTML'de Sırasız Liste Yapmak İçin <ul></ul> Etiketinin Arasına <li></li> Parametesini Eklememiz Gerek. -->
+        <li>Kahvaltılık</li> 
+	</ul>
 
+<h3>Sıralı Liste</h3>
+    <ol type="A">                            <!-- Sıralı Listeleri Sadece Rakam İle Değil Harf,Roman Rakamı vb Şekilde de Sıralayabiliriz Bunun İçin type="A" parametresini Kullanıyoruz. -->
+	    <li>Tavamızı Isıtalım</li>           
+	    <li>Yağımızı Tavaya Sürelim</li>     <!-- HTML'de Sıralı Liste Yapmak İçin <ol></ol> Etiketini Kullanıyoruz. -->
+	    <li>Yumurtamızı Kırıp Pişirelim</li>   
+    </ol>
 
+<h3>Açıklama Listesi</h3>
+	<dl>
+		<dt>HTML</dt>                        <!-- <dt></dt> Etiketi İle Terimi <dd></dd> Etiketi İle O Terimin Açıklamasını Yapabiliriz. -->
+		<dd>Web Sitesinin elemanlarını göstermeye yarar.</dd>
+		
+                                             <!-- HTML'de Açıklama Listesi İle Terimler ve Onların Açıklamalarını Yapabiliriz. -->
+		<dt>CSS</dt>
+		<dd>Web Sitesinin Görünümünü Düzenlemeye Yarar.</dd>
+	</dl>	
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<!-- HTML'de Tablo Yapmak İçin <table></table> <tr></tr> <th></th> ve <td></td> Etiketlerini Kulanıyoruz. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Anasayfa</title>
+</head>
+<body>
+	<h3> Açılış Saatleri </h3>
+	<table>
+			<tr>
+					<th>Pazartesi </th>
+					<th>Salı</th>
+					<th>Çarşmaba</th>
+					<th>Perşembe</th>
+					<th>Cuma</th>
+					<th>Cumartesi</th>
+					<th>Pazar</th>
+			</tr>
+
+			<tr>
+					<td>9-5</td>
+					<td>9-5</td>
+					<td>9-5</td>
+					<td>9-5</td>
+					<td>9-5</td>
+					<td>9-5</td>
+					<td>9-5s</td>
+			</tr>
+	</table>
+
+</body>
+</html>
 
 
 
